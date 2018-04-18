@@ -6,9 +6,24 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding style="background-image: url('https://picsum.photos/1205/2201/')">
+  <ion-row>
+	  	<ion-col col-12>
+	  		<div class="login-content">
+		  	<ion-list class="form-input">
+		  		<ion-item class="form-item">
+		  			<ion-label floating>Username</ion-label>
+		    		<ion-input type="text"></ion-input>
+		  		</ion-item>
+
+		  		<ion-item class="form-item">
+		  			<ion-label floating>Password</ion-label>
+		    		<ion-input type="text"></ion-input>
+		  		</ion-item>
+
+		  		<button ion-button full class="btn-login" (click)="onLogin()">Login</button>
+		  	</ion-list>
+		  	</div>
+		</ion-col>
+  </ion-row>
 </ion-content>

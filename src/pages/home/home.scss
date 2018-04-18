@@ -1,3 +1,15 @@
 page-home {
-
+	.form-item{
+		background: transparent;
+	    color: white;
+	    border-top: none !important;
+	}
+	.login-content {
+		with: 100%;
+		margin: 0,auto;
+	}
+	.btn-login{
+		border-radius: 4px;
+		margin-top: 50px;
+	}
 }
